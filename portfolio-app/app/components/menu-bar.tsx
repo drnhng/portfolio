@@ -2,8 +2,7 @@ import Link from "next/link";
 
 const menuItems = [
   { href: "/", label: "Portfolio" },
-  { href: "/blog", label: "Blog" },
-  { href: "/contact", label: "Let's talk" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export function MenuBar() {
