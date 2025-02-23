@@ -27,9 +27,9 @@ export function ProjectCard({
     <>
       <div 
         onClick={() => setIsModalOpen(true)}
-        className="group flex gap-8 p-4 bg-neutral-100 hover:bg-neutral-200 transition-all cursor-pointer rounded-lg"
+        className="group flex gap-8 p-4 bg-neutral-200 hover:bg-neutral-300 transition-all cursor-pointer rounded-lg"
       >
-        <div className="relative w-[300px] h-[200px] overflow-hidden bg-neutral-100 flex-shrink-0 rounded-md">
+        <div className="relative w-[300px] h-[200px] overflow-hidden bg-neutral-200 flex-shrink-0 rounded-md">
           <Image
             src={image}
             alt={title}
@@ -43,7 +43,7 @@ export function ProjectCard({
           <p className="text-base text-neutral-600">{description}</p>
           <div className="flex flex-wrap gap-2 text-sm mt-4">
             {technologies.map((tech, index) => (
-              <span key={index} className="bg-white px-3 py-1 rounded">
+              <span key={index} className="bg-neutral-200 px-3 py-1 rounded">
                 {tech}
               </span>
             ))}
@@ -53,7 +53,7 @@ export function ProjectCard({
 
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
         <div className="space-y-6">
-          <div className="relative w-full h-[400px] bg-neutral-100 rounded-lg overflow-hidden">
+          <div className="relative w-full h-[400px] bg-neutral-200 rounded-lg overflow-hidden">
             <Image
               src={image}
               alt={title}
@@ -69,7 +69,7 @@ export function ProjectCard({
             </p>
             <div className="flex flex-wrap gap-2 text-sm">
               {technologies.map((tech, index) => (
-                <span key={index} className="bg-neutral-100 px-3 py-1 rounded">
+                <span key={index} className="bg-neutral-200 px-3 py-1 rounded">
                   {tech}
                 </span>
               ))}
@@ -78,7 +78,7 @@ export function ProjectCard({
               href={link}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-4 text-sm px-4 py-2 bg-neutral-100 rounded-lg hover:bg-neutral-200 transition-colors"
+              className="inline-block mt-4 text-sm px-4 py-2 bg-neutral-200 hover:bg-neutral-300 rounded-lg transition-colors"
             >
               Link →
             </a>

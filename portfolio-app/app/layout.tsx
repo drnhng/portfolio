@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Sidebar } from "./components/sidebar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,12 +12,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-white text-neutral-900`}>
+      <body>
+        <div className="fixed inset-0 bg-[#D0DDD0] -z-10" />
+        <Sidebar />
         {children}
       </body>
     </html>
