@@ -12,7 +12,7 @@ export const projects = [
       title: "ArchivePDF: Progressive Web App",
       description: "Progressive web app for PDF management",
       longDescription: "A collaborative venture dedicated to sharing archive fashion scans, articles, and content with the world. I helped build the backend and frontend of the site, and am currently working on our next project, a SaaS to help creators network. I'm also a writer for the team!",
-      images: ["/images/projects/archivepdfimages/archivepdf.png", "/images/projects/archivepdfimages/a0.png", "/images/projects/archivepdfimages/a1.png", "/images/projects/archivepdfimages/a2.png", "/images/projects/archivepdfimages/a3.png"],
+      images: ["/images/projects/archivepdfimages/archivepdf.png", "/images/projects/archivepdfimages/a0.png", "/images/projects/archivepdfimages/a1.png", "/images/projects/archivepdfimages/a2.png", "/images/projects/archivepdfimages/a3.png"], 
       link: "https://beta.archivepdf.net/",
       technologies: ["Node.js", "TypeScript", "Firebase", "Stripe"],
       slug: "archivepdf"
