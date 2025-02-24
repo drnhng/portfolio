@@ -15,7 +15,7 @@ export const projects = [
       images: ["/images/projects/archivepdfimages/archivepdf.png", "/images/projects/archivepdfimages/a0.png", "/images/projects/archivepdfimages/a1.png", "/images/projects/archivepdfimages/a2.png", "/images/projects/archivepdfimages/a3.png"], 
       link: "https://beta.archivepdf.net/",
       technologies: ["Node.js", "TypeScript", "Firebase", "Stripe"],
-      slug: "archivepdf"
+      slug: "archivepdf" 
     },
     {
       title: "Spotify Pie: Viral App",
