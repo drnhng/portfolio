@@ -18,7 +18,7 @@ export const projects = [
       slug: "archivepdf"  
     },
     {  
-      title: "Spotify Pie: Viral App",
+      title: "Spotify Pie: Viral App",  
       description: "Viral music visualization app",
       longDescription: "A music visualization site that generates genre-based pie charts from Spotify listening data. I built the app from the ground up, integrating users' audio data to create dynamic, shareable charts. It quickly went viral, gaining over 12 million views in its first week and being featured in Yahoo Finance, USA Today, MetroUK, and IMDb. After a successful 2 years run, it was acquired by SENTRY Co in 2024.",
       images: ["/images/projects/spotifypieimages/spotifypie.png", "/images/projects/spotifypieimages/spotifypie.png", "/images/projects/spotifypieimages/spotifypie.png"],
