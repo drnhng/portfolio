@@ -27,9 +27,9 @@ export function ProjectCard({
     <>
       <div 
         onClick={() => setIsModalOpen(true)}
-        className="group flex gap-8 p-4 bg-neutral-200 hover:bg-neutral-300 transition-all cursor-pointer rounded-lg"
+        className="group flex gap-8 p-4 bg-[#D0DDD0] hover:bg-neutral-300 transition-all cursor-pointer rounded-lg"
       >
-        <div className="relative w-[300px] h-[200px] overflow-hidden bg-neutral-200 flex-shrink-0 rounded-md">
+        <div className="relative w-[300px] h-[200px] overflow-hidden bg-[#D0DDD0] flex-shrink-0 rounded-md">
           <Image
             src={image}
             alt={title}

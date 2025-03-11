@@ -16,7 +16,11 @@ export function Sidebar() {
       <div className="space-y-4">
         <div className="space-y-1">
           <h1 className="text-lg font-bold">Darren Huang</h1>
-          <p className="text-sm text-neutral-600">Full-stack Developer</p>
+          <p className="text-sm text-neutral-600">
+            Software Engineer <br/>
+            UCLA Alum <br />
+            Previously at Capital One
+            </p>
         </div>
         <a
           href="/resume.pdf"
@@ -39,12 +43,12 @@ export function Sidebar() {
             </Link>
           </li>
           <li>
-            <Link 
+            {/* <Link 
               href="/about" 
               className={`block px-4 py-2 rounded-lg transition-colors ${isActive('/about')}`}
             >
               about
-            </Link>
+            </Link> */}
           </li>
           <li>
             <Link 
