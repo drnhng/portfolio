@@ -10,7 +10,7 @@ export default function Home() {
       <div className="fixed inset-0 bg-[#D0DDD0] -z-10" />
       
       {/* Projects Section */}
-      <section className="space-y-8">
+      <section className="space-y-8"> 
         <h2 className="text-3xl font-semibold">Personal Works</h2>
         <div className="grid gap-8">
           {projects.map((project) => (
