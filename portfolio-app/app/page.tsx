@@ -12,7 +12,7 @@ export default function Home() {
       {/* Projects Section */}
       <section className="space-y-8"> 
         <h2 className="text-3xl font-semibold">Personal Works</h2>
-        <div className="grid gap-8">
+        <div className="grid gap-8"> 
           {projects.map((project) => (
             <Link 
               href={`/project/${project.slug}`} 
