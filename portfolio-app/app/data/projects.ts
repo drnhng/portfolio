@@ -3,7 +3,7 @@ export const projects = [
       title: "Silknode: Social Curation Site MVP",
       description: "",
       longDescription: "A comprehensive social platform that allows users to curate and share content. I led a team of three engineers to build the MVP of Silknode, a social curation app, from the ground up. I designed the architecture and database, translated Figma designs into interactive React components, and optimized performance with caching, SSR, and lazy loading.",
-      images: ["/images/projects/silknodeimages/silknode.png", "/images/projects/silknodeimages/sn0.png", "/images/projects/silknodeimages/sn1.png", "/images/projects/silknodeimages/sn2.png", "/images/projects/silknodeimages/sn3.png"],
+      images: ["/images/projects/silknodeimages/silknode.png", "/images/projects/silknodeimages/sno0.png", "/images/projects/silknodeimages/sn1.png", "/images/projects/silknodeimages/sn2.png", "/images/projects/silknodeimages/sn3.png"],
       link: "https://bones.silk.cx",
       technologies: ["React", "Next.js", "JavaScript/HTML", "TailwindCSS", "PostgreSQL", "AWS"],
       slug: "silknode"
