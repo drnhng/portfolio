@@ -6,7 +6,8 @@ import { projects } from './data/projects';
 
 export default function Home() {
   return (
-    <main className="max-w-7xl mx-auto px-32 py-16">
+    <main className="w-full max-w-screen-xl mx-auto px-4 sm:px-8 md:px-16 lg:px-32 py-12">
+
       <div className="fixed inset-0 bg-[#b3cfb3] -z-10" />
       
       {/* Projects Section */}
