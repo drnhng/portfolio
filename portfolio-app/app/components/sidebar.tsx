@@ -12,7 +12,6 @@ export function Sidebar() {
 
   return (
     <aside className="fixed left-8 top-8 flex flex-col gap-12">
-      {/* Header Info */}
       <div className="space-y-4">
         <div className="space-y-1">
           <h1 className="text-lg font-bold">Darren Huang</h1>
@@ -41,14 +40,6 @@ export function Sidebar() {
             >
               home
             </Link>
-          </li>
-          <li>
-            {/* <Link 
-              href="/about" 
-              className={`block px-4 py-2 rounded-lg transition-colors ${isActive('/about')}`}
-            >
-              about
-            </Link> */}
           </li>
           <li>
             <Link 

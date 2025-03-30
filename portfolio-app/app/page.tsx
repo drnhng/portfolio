@@ -7,7 +7,7 @@ import { projects } from './data/projects';
 export default function Home() {
   return (
     <main className="max-w-7xl mx-auto px-32 py-16">
-      <div className="fixed inset-0 bg-[#D0DDD0] -z-10" />
+      <div className="fixed inset-0 bg-[#b3cfb3] -z-10" />
       
       {/* Projects Section */}
       <section className="space-y-8"> 
