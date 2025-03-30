@@ -11,7 +11,7 @@ export const projects = [
     {
       title: "ArchivePDF: Progressive Web App",
       description: "",
-      longDescription: "A collaborative venture dedicated to sharing archive fashion scans, articles, and content with the world. I helped build the backend and frontend of the site, and am currently working on our next project, a SaaS to help creators network. I'm also a writer for the team!",
+      longDescription: "A collaborative venture dedicated to sharing archive fashion scans, articles, and content with the world. I built the frontend using React and Tailwind, integrated it with a Strapi backend, and set up CI/CD workflows for smooth deployment. I am still working with the team on our next project, a wikipedia for serving fashion content. I'm also a writer for the team!",
       images: ["/images/projects/archivepdfimages/archivepdf.png", "/images/projects/archivepdfimages/a0.png", "/images/projects/archivepdfimages/a1.png", "/images/projects/archivepdfimages/a2.png", "/images/projects/archivepdfimages/a3.png"], 
       link: "https://beta.archivepdf.net/",
       technologies: ["React", "JavaScript", "HTML/TailwindCSS", "Node.js", "TypeScript", "Firebase"],
